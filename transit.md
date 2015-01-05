@@ -2,6 +2,8 @@
 
 First, set your site recovery email address by editing the name of your site. Then, from this email address, send an email to help@houm.io with the subject "Request for transition to 2.0".
 
+# Reconfigure
+
 SSH to your Houm.io bridge.
 
 Upgrade your supervisord, let the installer overwrite your supervisor.conf:
