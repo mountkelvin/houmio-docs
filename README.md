@@ -16,6 +16,7 @@ Add [houmio.conf](houmio.conf) to `/home/pi`. Replace `HOUMIO_SITEKEY` dummy val
 
 Install `houmio-bridge` and `houmio-driver-enocean`:
 
+    cd
     npm install houmio/houmio-bridge
     npm install houmio/houmio-driver-enocean
 
