@@ -12,7 +12,7 @@ Update the site. Currently supports only changing the name.
 
 `post /api/site/:siteKey/light`
 
-Create new light.
+Create a new light.
 
 `put /api/site/:siteKey/light`
 
