@@ -1,3 +1,7 @@
+# Architecture
+
+![Arrows and boxes](architecture.png)
+
 # Transitioning from Houm.io 1.0
 
 First, set your site recovery email address by editing the name of your site. Then, from this email address, request a migration of your site data to the new system. Send an email to help@houm.io and request for a migration.
