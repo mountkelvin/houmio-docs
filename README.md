@@ -8,4 +8,4 @@ Transit instructions are [here](transit.md).
 
 # The API
 
-API documentation is [here](apidoc.md)
+API documentation is [here](apidoc.md).
