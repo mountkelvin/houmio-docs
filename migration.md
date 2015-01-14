@@ -1,6 +1,8 @@
-# Request a transit
+# Request a migration
 
-First, set your site recovery email address by editing the name of your site. Then, from this email address, send an email to help@houm.io with the subject "Request for transition to 2.0".
+First, set your site recovery email address by editing the name of your site. Then, from this email address, send an email to help@houm.io with the subject "Request for migration from 1.0 to 2.0".
+
+You will receive a new siteKey.
 
 # Reconfigure
 
@@ -26,4 +28,4 @@ Restart supervisor:
 
     sudo service supervisor restart
 
-Your API prefix is `https://houmi.herokuapp.com/api/site/yoursecretsitekey`.
+Your site UI is at `https://houmio-ui.herokuapp.com/site/yoursecretsitekey`.
