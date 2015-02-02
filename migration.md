@@ -31,3 +31,10 @@ Restart supervisor:
     sudo service supervisor restart
 
 Your site UI is at `https://houmio-ui.herokuapp.com/site/yoursecretsitekey`.
+
+# Additional drivers
+
+You might want to install additional drivers:
+
+* [KNX driver](https://github.com/houmio/houmio-driver-knx)
+* [Philips Hue driver](https://github.com/houmio/houmio-driver-philips-hue)
