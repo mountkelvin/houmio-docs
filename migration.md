@@ -20,13 +20,13 @@ Add [houmio.conf](houmio.conf) to `/home/pi` directory. Replace `HOUMIO_SITEKEY`
 
 Install `houmio-bridge` and `houmio-driver-enocean`:
 
-    cd
+    cd ~
     npm install houmio/houmio-bridge
     npm install houmio/houmio-driver-enocean
 
 Create log file dir:
 
-    mkdir log
+    mkdir ~/log
 
 Restart supervisor:
 
