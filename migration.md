@@ -18,7 +18,7 @@ Replace your `/etc/supervisor/supervisord.conf` with this [supervisord.conf](sup
 
 Add [houmio.conf](houmio.conf) to `/home/pi` directory.
 
-Replace `HOUMIO_SITEKEY` dummy value with your siteKey.
+Replace `HOUMIO_SITEKEY` dummy value with your siteKey in `houmio.conf`.
 
 Install `houmio-bridge` and `houmio-driver-enocean`:
 
