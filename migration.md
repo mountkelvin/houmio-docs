@@ -24,6 +24,10 @@ Install `houmio-bridge` and `houmio-driver-enocean`:
     npm install houmio/houmio-bridge
     npm install houmio/houmio-driver-enocean
 
+Create log file dir:
+
+    mkdir log
+
 Restart supervisor:
 
     sudo service supervisor restart
