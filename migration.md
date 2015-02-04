@@ -1,8 +1,8 @@
-# Request a migration
+# Migrate your data
 
-First, set your site recovery email address by editing the name of your site. Then, from this email address, send an email to help@houm.io with the subject "Request for migration from 1.0 to 2.0".
+Open `https://houmi.herokuapp.com/api/importSite/yourexistingsitekey`
 
-You will receive a new siteKey.
+The response should contain the URL to your Houm.io 2.0 site. Take good care of it.
 
 # Reconfigure
 
