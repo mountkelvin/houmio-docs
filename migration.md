@@ -10,6 +10,8 @@ SSH to your Houm.io bridge.
 
 Upgrade your supervisord, let the installer overwrite your supervisor.conf:
 
+    gpg --keyserver pgpkeys.mit.edu --recv-key  8B48AD6246925553
+    gpg -a --export 8B48AD6246925553 | sudo apt-key add -
     echo "deb http://http.debian.net/debian wheezy-backports main" | sudo tee -a /etc/apt/sources.list
     sudo apt-get update
     sudo apt-get -t wheezy-backports install "supervisor"
