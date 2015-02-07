@@ -16,9 +16,9 @@ Upgrade your supervisord, let the installer overwrite your supervisor.conf:
     sudo apt-get update
     sudo apt-get -t wheezy-backports install "supervisor"
 
-Replace your `/etc/supervisor/supervisord.conf` with this [supervisord.conf](supervisord.conf).
+Replace your `/etc/supervisor/supervisord.conf` with this [supervisord.conf](https://raw.githubusercontent.com/houmio/houmio-2.0-docs/master/supervisord.conf).
 
-Add [houmio.conf](houmio.conf) to `/home/pi` directory. Replace `HOUMIO_SITEKEY` dummy value with your siteKey in `houmio.conf`.
+Add [houmio.conf](https://raw.githubusercontent.com/houmio/houmio-2.0-docs/master/houmio.conf) to `/home/pi` directory. Replace `HOUMIO_SITEKEY` dummy value with your siteKey in `houmio.conf`.
 
 Install `houmio-bridge` and `houmio-driver-enocean`:
 
