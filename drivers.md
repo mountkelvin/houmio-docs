@@ -1,4 +1,4 @@
-*In progress*
+# Custom drivers
 
 Writing custom drivers enables you to control devices which are not supported by Houm.io out of the box.
 
