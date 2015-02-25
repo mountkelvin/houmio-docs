@@ -32,4 +32,29 @@ The API is split into two parts: the configuration API (the "restful" part) and 
 
 # The Socket.io API
 
-TODO
+Get your site configuration as a reference for your light and scene ids, rooms and zones.
+
+    curl https://houmi.herokuapp.com/api/site/yourSecretSiteKey
+
+Open `https://houmi.herokuapp.com/site/yourSecretSiteKey` in Chrome. Open the JS console.
+
+Following commands are supported:
+
+    # Connect client
+    > socket.emit('clientReady', { siteKey: "yourSecretSiteKey" }
+    # Note: this is automatically emitted when opening https://houmi.herokuapp.com/site/yourSecretSiteKey
+
+    # Set light to given state
+    > socket.emit('apply/light', {_id: yourLightId, on: true, bri: 255 })
+
+    # Apply scene
+    > socket.emit('apply/scene', { _id: yourSceneId })
+
+    # Set all lights in zone to given state
+    > socket.emit('apply/zone', { zone: "1st floor", on: true, bri: 255 })
+
+    # Set all lights in room to given state. Note: if you do not use zones, specify zone: "".
+    > socket.emit('apply/zone/room', { zone: "1st floor", "room": "kitchen", on: true, bri: 255 })
+
+    # Set all lights to given state
+    > socket.emit('apply/all', { on: true, bri: 255 })
