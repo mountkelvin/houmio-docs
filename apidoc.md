@@ -48,7 +48,7 @@ Following commands are supported:
     > socket.emit('apply/light', {_id: "yourLightId", on: true, bri: 255 })
 
     # Apply scene
-    > socket.emit('apply/scene', { _id: "yourSceneId" })
+    > socket.emit('apply/scene', "yourSceneId")
 
     # Set all lights in zone to given state
     > socket.emit('apply/zone', { zone: "1st floor", on: true, bri: 255 })
