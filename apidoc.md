@@ -45,10 +45,10 @@ Following commands are supported:
     # Note: this is automatically emitted when opening https://houmi.herokuapp.com/site/yourSecretSiteKey
 
     # Set light to given state
-    > socket.emit('apply/light', {_id: yourLightId, on: true, bri: 255 })
+    > socket.emit('apply/light', {_id: "yourLightId", on: true, bri: 255 })
 
     # Apply scene
-    > socket.emit('apply/scene', { _id: yourSceneId })
+    > socket.emit('apply/scene', { _id: "yourSceneId" })
 
     # Set all lights in zone to given state
     > socket.emit('apply/zone', { zone: "1st floor", on: true, bri: 255 })
