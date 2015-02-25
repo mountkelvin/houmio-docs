@@ -41,7 +41,7 @@ Open `https://houmi.herokuapp.com/site/yourSecretSiteKey` in Chrome. Open the JS
 Following commands are supported:
 
     # Connect client
-    > socket.emit('clientReady', { siteKey: "yourSecretSiteKey" }
+    > socket.emit('clientReady', { siteKey: "yourSecretSiteKey" })
     # Note: this is automatically emitted when opening https://houmi.herokuapp.com/site/yourSecretSiteKey
 
     # Set light to given state
