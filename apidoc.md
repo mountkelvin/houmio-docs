@@ -41,8 +41,8 @@ Open `https://houmi.herokuapp.com/site/yourSecretSiteKey` in Chrome. Open the JS
 Following commands are supported:
 
     # Connect client
-    > socket.emit('clientReady', { siteKey: "yourSecretSiteKey" })
     # Note: this is automatically emitted when opening https://houmi.herokuapp.com/site/yourSecretSiteKey
+    > socket.emit('clientReady', { siteKey: "yourSecretSiteKey" })
 
     # Set light to given state
     > socket.emit('apply/light', {_id: "yourLightId", on: true, bri: 255 })
@@ -53,7 +53,8 @@ Following commands are supported:
     # Set all lights in zone to given state
     > socket.emit('apply/zone', { zone: "1st floor", on: true, bri: 255 })
 
-    # Set all lights in room to given state. Note: if you do not use zones, specify zone: "".
+    # Set all lights in room to given state
+    # Note: if you do not use zones, specify zone: "".
     > socket.emit('apply/zone/room', { zone: "1st floor", "room": "kitchen", on: true, bri: 255 })
 
     # Set all lights to given state
