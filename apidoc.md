@@ -30,6 +30,10 @@ The API is split into two parts: the configuration API (the "restful" part) and 
 
 `delete /api/site/:siteKey/schedule/:scheduleId` Delete a schedule.
 
+# The rest of the REST API
+
+`put /api/site/:siteKey/scene/:sceneId/apply` Apply a scene.
+
 # The Socket.io API
 
 Get your site configuration as a reference for your light and scene ids, rooms and zones.
