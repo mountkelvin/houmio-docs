@@ -23,7 +23,7 @@ Add [houmio.conf](https://raw.githubusercontent.com/houmio/houmio-2.0-docs/maste
 Install `houmio-bridge` and `houmio-driver-enocean`:
 
     cd ~
-    npm install houmio/houmio-bridge
+    npm install houmio/houmio-bridge --tag 2.0.1
     npm install houmio/houmio-driver-enocean
 
 Create log file dir:
