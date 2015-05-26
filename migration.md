@@ -6,7 +6,7 @@ The response contains the URL to your Houm.io 2.0 site. Take good care of it.
 
 # Reconfigure
 
-SSH to your Houm.io bridge.
+SSH to your Houm.io bridge. [Fing](http://www.overlooksoft.com/fing) is a nice tool for listing the IP and MAC addresses of the network you are in.
 
 Upgrade your supervisord, let the installer overwrite your supervisor.conf:
 
