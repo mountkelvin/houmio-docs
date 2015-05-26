@@ -34,6 +34,10 @@ Restart supervisor:
 
     sudo service supervisor restart
 
+Sync changes:
+
+    sync
+
 Your site UI is at `https://houmio-ui.herokuapp.com/site/yoursecretsitekey`.
 
 # Additional drivers
