@@ -2,7 +2,7 @@
 
 Open `https://houmi.herokuapp.com/api/importSite/yourexistingsitekey`
 
-The response should contain the URL to your Houm.io 2.0 site. Take good care of it.
+The response contains the URL to your Houm.io 2.0 site. Take good care of it.
 
 # Reconfigure
 
