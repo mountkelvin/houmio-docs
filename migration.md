@@ -40,6 +40,8 @@ Sync changes:
 
 Your site UI is at `https://houmio-ui.herokuapp.com/site/yoursecretsitekey`.
 
+Congratulations, your migration is now done! Remember to reconfigure your buttons and schedules, these are unfortunately lost in the migration process.
+
 # Additional drivers
 
 You might want to install additional drivers:
