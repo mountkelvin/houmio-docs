@@ -87,3 +87,13 @@ Following commands are supported:
 
     # Set all lights to given state
     > socket.emit('apply/all', { on: true, bri: 255 })
+
+## Events
+
+Following events are supported:
+
+    # Button and other source events
+    socket.on('eventSourceKey', (event) -> console.log(event))
+    
+    # Changes to light states (on/off) and brightness
+    socket.on('setLightState', (event) -> console.log(event))
